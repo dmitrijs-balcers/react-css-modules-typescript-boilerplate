@@ -1,5 +1,5 @@
 {
-    "name": "fromzerotohero",
+    "name": "react-css-modules-typescript-boilerplate",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -35,5 +35,13 @@
     },
     "lintStagedComments": {
         "**/*": "https://prettier.io/docs/en/install.html#git-hooks"
-    }
+    },
+    "keywords": [
+        "parcel",
+        "parcel-v2",
+        "css",
+        "css-modules",
+        "typescript",
+        "ts"
+    ]
 }
