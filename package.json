@@ -6,6 +6,7 @@
     "scripts": {
         "start": "parcel serve ./src/index.html",
         "build": "parcel build ./src/index.html",
+        "validate-ts": "tsc --project ./tsconfig.json",
         "prepare": "husky install"
     },
     "author": "",
