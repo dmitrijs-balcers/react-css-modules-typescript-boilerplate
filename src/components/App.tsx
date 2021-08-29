@@ -8,7 +8,9 @@ export const App: React.FC = () => {
     return (
         <>
             <div className={cn(withBorder, background)}>It Works! {number}</div>
-            <button onClick={() => increase(number + 1)}>Click!</button>
+            <button type="button" onClick={() => increase(number + 1)}>
+                Click!
+            </button>
         </>
     );
 };

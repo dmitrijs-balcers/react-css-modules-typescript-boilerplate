@@ -11,5 +11,7 @@ jobs:
                   node-version: "16.3.0"
             - name: yarn install
               run: yarn install
+            - name: yarn lint
+              run: yarn lint
             - name: yarn validate-ts
               run: yarn validate-ts

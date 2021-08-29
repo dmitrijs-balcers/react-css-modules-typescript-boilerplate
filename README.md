@@ -16,6 +16,7 @@ Open: http://localhost:1234
 ## Features
 
 All the mentioned above + prettier and pre-commit hook to format your code.
+Also this project already has [Github Actions](https://docs.github.com/en/actions) set up to perform typechecks and lint.
 
 # Dependencies
 
