@@ -667,14 +667,7 @@
     "@parcel/utils" "^2.0.0"
     posthtml "^0.16.4"
 
-"@parcel/plugin@2.0.0-beta.3.1":
-  version "2.0.0-beta.3.1"
-  resolved "https://registry.npmjs.org/@parcel/plugin/-/plugin-2.0.0-beta.3.1.tgz"
-  integrity sha512-4kX1eBl1aY/CN7PKVwbIePoBtQfgX+8GHym0XfH/jPM187ln7mLMrE/L36p5Zt2EhHRjW+XMRWX915lMksIF1Q==
-  dependencies:
-    "@parcel/types" "2.0.0-beta.3.1"
-
-"@parcel/plugin@^2.0.0":
+"@parcel/plugin@2.0.0", "@parcel/plugin@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.0.0.tgz#ad1c820a89fe3f356933dcbfb0579865275b41df"
   integrity sha512-yOBRbizd27vivgFRxpTBxfViTIYMdoLeAvRHEoL49dkymKkKtq09hZQtVS+iQmypwyJnp4cMsG8FwN+srJub7w==
@@ -915,11 +908,6 @@
   integrity sha512-+jMwsBu5+gyp8iw+h6CN1MR8hYDALdO1ccphHPD2WMzQHpvvp+hhZ/gUfN70ioPz9DOG/d6BMlfm/HVaZLePsA==
   dependencies:
     nullthrows "^1.1.1"
-
-"@parcel/types@2.0.0-beta.3.1":
-  version "2.0.0-beta.3.1"
-  resolved "https://registry.npmjs.org/@parcel/types/-/types-2.0.0-beta.3.1.tgz"
-  integrity sha512-8Cmh5/43LZ7wQeqawFMenZ/CCh+YAbyRuwBBApMCDLU3+RSpajUYyTpqa1HZVV8FggQb8E0xvPkmUbj/UHz/gw==
 
 "@parcel/types@^2.0.0":
   version "2.0.0"
@@ -4208,12 +4196,12 @@ pako@~1.0.5:
   resolved "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz"
   integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
-parcel-transformer-ts-css-modules@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/parcel-transformer-ts-css-modules/-/parcel-transformer-ts-css-modules-1.0.6.tgz#94b889d538f4ef384115c6d77dba5770d2201a83"
-  integrity sha512-T80RPgSrncj5OufyJjQtpEve7RTkE6uy2mhjsC6Idlrb3zybZnD/o4U1Vol7ghPSyLwAn43ZvXQbWkvXzLhY7A==
+parcel-transformer-ts-css-modules@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/parcel-transformer-ts-css-modules/-/parcel-transformer-ts-css-modules-1.0.10.tgz#69dbc0241a26a748158dc36d963b9aaeb280418d"
+  integrity sha512-qaQXT5eOBIr/MKb4yiuouug+3+HdsLuC1yJU5YBRzSw2IMkL/ekSjiDqtsCSIAqL/IsPWZxRhhkKp+DYEhw/Mg==
   dependencies:
-    "@parcel/plugin" "2.0.0-beta.3.1"
+    "@parcel/plugin" "2.0.0"
     typed-css-modules "0.7.0"
 
 parcel@^2.0.0:
@@ -4687,6 +4675,13 @@ postcss-ordered-values@^5.0.2:
     cssnano-utils "^2.0.1"
     postcss-value-parser "^4.1.0"
 
+postcss-plugin@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-plugin/-/postcss-plugin-1.0.0.tgz#f763814565b87b93e13449fcf9d75941c566b070"
+  integrity sha1-92OBRWW4e5PhNEn8+ddZQcVmsHA=
+  dependencies:
+    postcss "^6.0.8"
+
 postcss-reduce-initial@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/postcss-reduce-initial/-/postcss-reduce-initial-5.0.1.tgz"
@@ -4760,7 +4755,7 @@ postcss@7.x.x, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.32, postcss@^7.0.5
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^6.0.1:
+postcss@^6.0.1, postcss@^6.0.8:
   version "6.0.23"
   resolved "https://registry.npmjs.org/postcss/-/postcss-6.0.23.tgz"
   integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
