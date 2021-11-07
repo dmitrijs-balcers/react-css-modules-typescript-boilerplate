@@ -34,9 +34,10 @@
         "husky": "^7.0.2",
         "lint-staged": "^11.1.2",
         "parcel": "^2.0.0",
-        "parcel-transformer-ts-css-modules": "^1.0.6",
+        "parcel-transformer-ts-css-modules": "^1.0.10",
         "postcss": "^8.3.6",
         "postcss-modules": "^4.2.2",
+        "postcss-plugin": "^1.0.0",
         "prettier": "^2.4.1",
         "typescript": "4.4.2"
     },
