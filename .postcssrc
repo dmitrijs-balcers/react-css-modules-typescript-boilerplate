@@ -1,6 +1,7 @@
 {
     "modules": true,
     "plugins": {
-         "postcss-modules": {}
+        "postcss-nested": {},
+        "postcss-modules": {}
     }
 }
