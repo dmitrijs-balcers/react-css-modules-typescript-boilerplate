@@ -1,5 +1,11 @@
 import * as React from "react";
-import { render } from "react-dom";
+import { createRoot } from "react-dom/client";
 import { App } from "./components/App";
 
-render(<App />, document.getElementById("root"));
+const root = document.getElementById("root");
+
+if (!root) {
+    console.error("Root el not found!");
+} else {
+    createRoot(root).render(<App />);
+}
